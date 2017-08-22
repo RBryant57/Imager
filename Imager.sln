@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Image", "Image\Image.csproj", "{D6441CB5-8611-46AD-9AC6-BE8E52C6C3EF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Imager.Test", "Imager.Test\Imager.Test.csproj", "{C8313B54-90C2-49BA-B51F-E88065073A3D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D6441CB5-8611-46AD-9AC6-BE8E52C6C3EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6441CB5-8611-46AD-9AC6-BE8E52C6C3EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6441CB5-8611-46AD-9AC6-BE8E52C6C3EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6441CB5-8611-46AD-9AC6-BE8E52C6C3EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C8313B54-90C2-49BA-B51F-E88065073A3D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8313B54-90C2-49BA-B51F-E88065073A3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8313B54-90C2-49BA-B51F-E88065073A3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8313B54-90C2-49BA-B51F-E88065073A3D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
