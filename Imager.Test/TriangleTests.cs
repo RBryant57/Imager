@@ -68,5 +68,16 @@ namespace Imager.Test
 
         }
 
+        [TestMethod]
+        public void InvertedRightTriangleShouldBeInvalid()
+        {
+            var myTriangle = new RightTriangle(new VertexPoint(10, 10), new VertexPoint(10, 0), new VertexPoint(0, 10));
+
+            Assert.IsFalse(myTriangle.IsValid);
+
+            myTriangle = new RightTriangle(new VertexPoint(0, 0), new VertexPoint(0, 10), new VertexPoint(10, 0));
+            Assert.IsFalse(myTriangle.IsValid);
+        }
+
     }
 }

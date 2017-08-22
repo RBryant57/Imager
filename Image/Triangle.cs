@@ -76,6 +76,13 @@ namespace Imager
                 if (V1.Y != V3.Y || (V1.Y + SideA != V2.Y && V1.Y - SideA != V2.Y))
                     return false;
 
+                // In the context of this image, even valid right triangles could be considered
+                // invalid.
+                if (V1.X > V3.X && V1.Y > V2.Y)
+                    return false;
+                if (V1.X < V3.X && V1.Y < V2.Y)
+                    return false;
+
                 return true;
             }
         }
